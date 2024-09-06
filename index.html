@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script> <!-- Include jsPDF library -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Zisan</a>
+
+        <nav class="navber">
+            <a class="navber" href="#">Home</a>
+            <a class="navber" href="#">Portfolio</a>
+            <a class="navber" href="#">Skill</a>
+            <a class="navber"href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="main">
+        <div class="container d-flex align-items-center">
+            <!-- Left Side: Text Content -->
+            <div class="text-content">
+                <h1 class="text-title">HI !<br>I'M ZISAN UL HAQUE</h1>
+                <h5>Web Developer || Programmer</h5>
+                <p>Hello...I know about programming languages, just a little bit. BUT I want to improve myself.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100017757339212" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/_zisan_03/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="YOUR_YOUTUBE_LINK_HERE" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <!-- Right Side: Image -->
+            <div class="image-container">
+                <img src="IMG_20231103_205925.jpg" alt="Zisan Ul Haque" class="profile-image">
+            </div>
+        </div>
+    </section>
+    
+    <section class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="row">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-12 d-flex mb-4">
+                    <div class="portfolio-item">
+                        <img src="Screenshot 2024-09-06 223658.png" alt="Project" class="portfolio-image">
+                        <div class="portfolio-details">
+                            <h3>Online University <span>💻</span></h3>
+                            <p>This is a travel service agency website. Users can log in via Facebook sign-in, Google Sign-in, and create a new account to use the services. Users can choose the service as they want.</p>
+                            <ul>
+                                <li>User can choose the perfect vehicle as they want</li>
+                                <li>Users can also see their current location</li>
+                                <li>Firebase Authentication used in this website</li>
+                                <li>User can log in via Google, Facebook, GitHub, and also create an account</li>
+                            </ul>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Firebase</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Node</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-12 d-flex mb-4">
+                    <div class="portfolio-item">
+                        <img src="Screenshot 2024-09-06 223658.png" alt="Project" class="portfolio-image">
+                        <div class="portfolio-details">
+                            <h3>Online University <span>💻</span></h3>
+                            <p>This is a travel service agency website. Users can log in via Facebook sign-in, Google Sign-in, and create a new account to use the services. Users can choose the service as they want.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
+                            </ul>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Firebase</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Node</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section section-btn">
+        <div class="container">
+            <h3>Expertise:</h3>
+            <div class="button-container">
+                <button>React.js</button>
+                <button>Javascript</button>
+                <button>Node.js</button>
+                <button>Firebase</button>
+                <button>Express.js</button>
+                <button>HTML</button>
+                <button>Bootstrap</button>
+                <button>MongoDB</button>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Comfortable:</h3>
+            <div class="button-container">
+                <button>SQL</button>
+                <button>Redux</button>
+                <button>Socket.io</button>
+                <button>AWS</button>
+                <button>Docker</button>
+                <button>TypeScript</button>
+                <button>Next.js</button>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Familiar:</h3>
+            <div class="button-container">
+                <button>C++</button>
+                <button>Python</button>
+                <button>Spring Boot</button>
+                <button>Networking</button>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Tools:</h3>
+            <div class="button-container">
+                <button>VS Code</button>
+                <button>JIRA</button>
+                <button>Trello</button>
+                <button>Git</button>
+            </div>
+        </div>
+        <div class="container education">
+            <h3 class="text-title">My Education</h3>
+            <div class="education-details">
+                <p>B.Sc in Computer Science & Engineering (CSE)</p>
+                <p>Pundra University of Science & Technology</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <div class="container text-center">
+            <h2 class="mb-4">Contact with Me</h2>
+            <div class="shadow-box">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Please type your name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Please type your email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © 2024 | Zisan</p>
+            <p>Pub. Bogura</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100017757339212" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_zisan_03/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="YOUR_YOUTUBE_LINK_HERE" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('downloadPDF').addEventListener('click', function() {
+            const filename = 'your_website.pdf';
+            const pdf = new jspdf.jsPDF();
+
+            // Add content to PDF from HTML body
+            pdf.html(document.body, {
+                callback: function(pdf) {
+                    pdf.save(filename); // Save the PDF
+                }
+            });
+        });
+    </script>
+</body>
+</html>
